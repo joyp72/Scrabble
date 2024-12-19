@@ -1,0 +1,65 @@
+<!-- Joy Patel, COMP 4610 201
+resources used: 
+- https://jqueryui.com/
+- pieces.json by Ramon Meza -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+
+        <!-- container for droppables -->
+        <div class="droppable-container">
+            <div id="droppable1" class="tile-droppable">
+            </div>
+            <div id="droppable2" class="tile-droppable">
+            </div>
+            <div id="droppable3" class="tile-droppable double">
+            </div>
+            <div id="droppable4" class="tile-droppable">
+            </div>
+            <div id="droppable5" class="tile-droppable">
+            </div>
+            <div id="droppable6" class="tile-droppable double">
+            </div>
+            <div id="droppable7" class="tile-droppable">
+            </div>
+        </div>
+
+        <!-- container for displaying word and score-->
+        <div class="word-score-container">
+            Word: Score:
+        </div>
+        <div class="button-container">
+            <form action="index.html">
+                <input type="submit" value="Restart" />
+            </form>
+        </div>
+
+        <!-- container for letter tiles -->
+        <div class="tile-container">
+            <div class="tile">
+                <img src="graphics_data/Scrabble_Tiles/Scrabble_Tile_A.jpg" alt="">
+            </div>
+            <div class="tile">
+                <img src="graphics_data/Scrabble_Tiles/Scrabble_Tile_B.jpg" alt="">
+            </div>
+            <div class="tile">
+                <img src="graphics_data/Scrabble_Tiles/Scrabble_Tile_C.jpg" alt="">
+            </div>
+            <div class="tile">
+                <img src="graphics_data/Scrabble_Tiles/Scrabble_Tile_D.jpg" alt="">
+            </div>
+            <div class="tile">
+                <img src="graphics_data/Scrabble_Tiles/Scrabble_Tile_E.jpg" alt="">
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+        <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,96 @@
+/* Joy Patel, COMP 4610 201
+resources used: 
+- https://jqueryui.com/
+- pieces.json by Ramon Meza */
+
+body {
+    background-color: #3B3B3B;
+    color: white;
+}
+
+.tile-holder img{
+    height: 100px;
+    width: 500px;
+}
+
+.tile {
+    width: 60px;
+    z-index: 1;
+}
+
+.word-score-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 1.3em;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.tile-container {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.droppable-container {
+    margin-top: 100px;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.droppable-container .tile-droppable {
+    background-color: grey;
+    width: 70px;
+    height: 100%;
+    border: solid black;
+    box-sizing: border-box;
+    border-width: 4px;
+    margin: 0;
+    padding: 0;
+    background-image: url(graphics_data/droppable-blank.png);
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
+}
+
+.droppable-container .double {
+    background-color: grey;
+    width: 70px;
+    height: 100%;
+    border: solid black;
+    box-sizing: border-box;
+    border-width: 4px;
+    margin: 0;
+    padding: 0;
+    background-image: url(graphics_data/droppable-double.png);
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
+}
+
+.tile img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.tile-holder {
+    width: 120px;
+    height: 120px;
+}
+
+.tile-holder img {
+    width: 120px;
+    height: 120px;
+}
+
+.ui-state-highlight {
+    opacity: 50%;
+}
